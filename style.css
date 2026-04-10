@@ -12,7 +12,6 @@ body::before {
 }
 header {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 15px;
@@ -39,23 +38,20 @@ header p{
     font-size:xx-large;  
 }
 section {
-    min-height: 100vh;
-    height: auto;
-    padding: 40px 20px;
+    height: 85vh;
+    padding: 40px; 
 }
 #registroAsociado {
     scroll-margin-top: 70px;
     background-color: #e6f5cb;
-    min-height: 100vh;
-    height: auto;
+    height: 100vh;
     padding: 40px;
     background-image: url("img/3.png");
 }
 #AcercaDeNosotros{
     scroll-margin-top: 70px;
     background-color: #e6f5cb;
-    min-height: 100vh;
-    height: auto;
+    height: 93vh;
     padding: 40px;
     background-image: url("img/1.png");
     
@@ -63,15 +59,12 @@ section {
 #Mapa{
     scroll-margin-top: 70px;
     background-image: url("img/3.png");
-    min-height: 100vh;
-    height: auto;
+    height: 92vh;
     padding: 40px;
 }
 nav {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 h1 {
     font-family: 'Chakra Petch', sans-serif;
@@ -79,41 +72,30 @@ h1 {
     padding-bottom: 3rem;
     color: white;
 }
-.ventana_registro {
+.ventana_registro{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 20px; 
-    @media (max-width: 1024px) {
-    .ventana_registro {
-        flex-direction: column;
-    }
-}
+  
 }
 .container_registro {
-    padding: 100px;
+    padding: 90px;
+    width: 600px;
+    height: 750px;
     border-radius: 30px;
     box-shadow: 1px 5px 4px 4px rgba(5, 105, 112, 0.541);
     color: white;
     margin-right: 40px;
-
-    width: 100%;
-    max-width: 500px; 
-    min-height: 500px; 
-    padding: 30px; 
     
 }
 .app_promocion{
+    width: 300px;
     padding: 30px;
     border-radius: 25px;
     box-shadow: 1px 5px 4px 4px rgba(5, 105, 112, 0.541);
     color:white;
     text-align: center;
     margin-left: 40px;
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
 
     
 
@@ -187,10 +169,10 @@ h1 {
     font-weight: 400;
 }
 
-#map {
-    width: 100%;
-    max-width: 900px;
-    height: 400px;
+#map{
+    height: 700px;
+    width: 900px;
+    border-radius: 15px;
 }
 
 .contenedor {
@@ -214,25 +196,23 @@ h1 {
 input {
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 10px 90px;
     border: 1px solid #b6adad;
     border-radius: 6px;
     margin-bottom: 10px;
     font-size: 14px;
     text-align: center;
-    width: 100%;
 }
 
 textarea {
     display: flex;
     align-items: center;
+    padding: 10px 90px;
     border: 1px solid #b6adad;
     border-radius: 6px;
     margin-bottom: 10px;
     font-size: 14px;
     text-align: center;
-    width: 100%;
-    padding: 10px; 
 }
 .formulario {
     text-align: center;
@@ -297,12 +277,9 @@ span{
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     padding: 30px 40px;
-    width: 100%;
-    max-width: 500px;
+    width: 50%;
     max-height: 700px;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     overflow-y: auto;
-    
     
 }
 
