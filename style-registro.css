@@ -19,7 +19,7 @@ h1 {
 h3 {
     font-family: 'Chakra Petch', sans-serif;
     padding-bottom: 1rem;
-    display: flex;
+    display: flex; 
     flex-direction: column;
     color: rgb(0, 197, 211);
 }
