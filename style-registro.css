@@ -2,7 +2,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 10px;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-color: #dee2d7be;
     background-image: url("img/2.png");
@@ -46,8 +46,9 @@ form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 100px;
-    width: 300px;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
     color: white;
 }
 .container_registrarColaborador {
@@ -55,8 +56,9 @@ form {
     flex-direction: column;
     border-radius: 40px;
     box-shadow: 1px 5px 4px 4px rgba(5, 105, 112, 0.541);
-    height: 600px;
-    width: 600px;
+    width: 100%;
+    max-width: 600px; 
+    min-height: 500px;
     align-items: center;
     padding-top: 20px;
     color: white;
@@ -72,11 +74,12 @@ form {
 .container_registrarColaborador input {
     display: flex;
     align-items: center;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #b6adad;
     border-radius: 6px;
     margin-bottom: 10px;
     font-size: 14px;
+    width: 100%;
 }
 .container_registrarColaborador:focus{
     outline: none;
@@ -103,9 +106,10 @@ form {
     align-items: right;
     border-radius: 40px;
     box-shadow: 0 1px 3px rgb(94, 133, 82);
-    width: 900px;
-    padding-top: 40px;
-    padding-left: 50px;;
+    width: 100%;
+    max-width: 900px;
+    padding-top: 20px;
+    
 }
 .container_registroTaller h1 {
     text-align: center;
@@ -116,12 +120,11 @@ form {
 .container_registroTaller input {
     display: flex;
     align-items: center;
-    padding: 8px;
+    padding: 10px;
     border: 1px solid #b6adad;
     border-radius: 6px;
     font-size: 14px;
-    padding-left: 700px;
-    padding-bottom: 15px;
+    width: 100%;
 }
 .container_registroTaller:focus{
     outline: none;
@@ -147,7 +150,8 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
     width: 100%;
     max-width: 1200px;
+    
 }
